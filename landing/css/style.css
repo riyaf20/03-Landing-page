@@ -1,0 +1,76 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  padding: 120px 0;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 0 2px rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  height: 240px;
+  object-fit: scale-down;
+  font-weight: bold;
+  font-size: 23px;
+  text-shadow: 1px 1px 2px gray;
+}
+
+.btn-gray{
+  border-radius: 25%;
+  background-color: rgb(69, 66, 66);
+  padding: 12px 12px;
+  color: white;
+  opacity: 0.8;
+}
+
+.container{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.bandpic {
+  width: 200px;
+  border-radius: 4%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.footer{
+  background-image: linear-gradient(180deg, #581845, #900C3F, #C70039, #FF5733, #FFC300);
+  color: white;
+  text-align: center;
+}
